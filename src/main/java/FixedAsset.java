@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public abstract class FixedAsset implements Valuable {
+    private String name;
+    private double originalValue;
 
-public class FixedAsset {
+    public FixedAsset(String name, double value) {
+        this.name = name;
+        this.originalValue = value;
+    }
+
+    public double getValue() {
+        return this.originalValue;
+    }
 }

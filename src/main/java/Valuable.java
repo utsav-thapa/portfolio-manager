@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+public interface Valuable {
 
-public class Valuable {
+    double getValue();
+
 }
